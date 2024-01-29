@@ -1,0 +1,298 @@
+body{
+    font-family: sans-serif, bookman old style,Impact, Haettenschweiler, Helvetica, calibri;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(47, 79, 79, 0.8);
+
+
+
+}
+
+/* global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+
+/* Header */
+
+
+.name{
+    color:darkslategrey;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+
+.name span{
+    color: blanchedalmond;
+    text-transform: uppercase;
+
+
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    
+   
+}
+
+.nav-links a{
+    font-size: 25px;
+    font-weight: 500;
+    color: blanchedalmond;
+    margin:10px 20px;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.nav-links a:hover{
+    color: darkslategrey;   
+}
+
+
+
+/* personal info */
+
+#personal-info {
+    background-color: darkgrey; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+#personal-info h1{
+    color: darkslategrey;
+    font-size: 38px;
+}
+
+
+#personal-info p{
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+
+
+.highlight {
+    color:blanchedalmond;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.social-links a:hover{
+    color:blanchedalmond
+}
+
+
+/* social-links */
+
+
+.social-links {
+    color: blanchedalmond;
+    margin-top: 20px; 
+
+}
+
+.social-links p{
+    font-weight: 100;
+    font-size: 20px;
+    color: darkslategrey;
+    font-family: bookman old style;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+
+.social-links a{
+    margin-top:0 20px;
+    color: darkslategrey;
+    padding: 10px;
+    display: inline-block;
+}
+
+.social-links a:hover{
+    color: blanchedalmond;
+}
+
+
+
+/* hover */
+header a:hover{
+    color: darkcyan;
+    font-weight: bold;
+
+}
+ /* showcase */
+ #showcase{
+    min-height:500px;
+    background:url(../assets/img/portfolio/Backdrop.png) 400px 0  no-repeat;
+    text-align: center;
+    color:blanchedalmond;
+    background-size: cover;
+    background-position: top right;
+    border-bottom:2px solid blanchedalmond;
+    margin-bottom: 20px solid blanchedalmond;
+    border-top: 10px solid blanchedalmond;
+    display: grid;
+    padding-top: 1px;
+    position: relative;
+    overflow: hidden;
+    
+ }
+
+.showcase h1{
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: bookman old style;
+    font-size: 100;
+}
+
+#showcase h2{
+    font-family: bookman old style;
+    font-size: 22px;
+
+}
+
+
+#side{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+.left-side{
+    background-color:darkslategray;
+    z-index: 2;
+}
+
+.right-side{
+    background-color: blanchedalmond;
+    color: darkslategrey;
+    padding-top: 40px;
+
+}
+
+
+/* skills */
+#skills{
+    padding: 20px;
+    color: blanchedalmond;
+    background: darkslategrey;
+    border-top: 10px solid blanchedalmond;
+    margin-top: 5px;
+
+}
+
+#skills h2{
+    font-size: 40px;
+    font-family: bookman old style;
+
+}
+
+#skills .list-inline, #skills .subheading{
+    font-family: bookman old style;
+    align-content: center;
+    display: flex;
+   
+}
+
+#skills .list-inline-item, #skills .subheading{
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: bookman old style;
+    display:inline-block;
+    align-content: center;
+
+}
+
+#skills .list-inline-item span, #skills .subheading{
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    font-family: bookman old style;
+    align-content: center;
+    
+}
+
+.hidden{
+    display:none
+}
+
+
+/* work-experience */
+
+#work-experience{
+    min-height: 500px;
+    background: url(../assets/img/portfolio/Backdrop.png) -100px 0 no-repeat;
+    color: blanchedalmond;
+    background-size: cover;
+    background-position: top left;
+    padding-top: 1px;
+    border-top: 10px solid blanchedalmond;
+    border-bottom: 2px solid blanchedalmond;
+    margin-bottom: 20px solid blanchedalmond;
+    display: flex;
+    font-family: bookman old style;
+   
+}
+
+#work-experience h3{
+    text-transform: uppercase;
+}
+
+#work-experience h2 {
+    color: darkcyan;
+}
+
+#work-experience p{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: bookman old style;
+}
+
+
+
+
+/* Interests */
+#Interests {
+    padding: 20px;
+    background: darkslategrey;
+    border-top: 5px solid blanchedalmond;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-bottom:10px solid blanchedalmond;
+    color: blanchedalmond;
+    font: bookman old style;
+}
+
+/* footer */
+.footer{
+    padding-top: 20px;
+    color: blanchedalmond;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    border-bottom: 2px solid blanchedalmond;
+}
+
